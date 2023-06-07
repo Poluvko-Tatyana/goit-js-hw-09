@@ -42,3 +42,4 @@ ${currentMinutes.toString().padStart(2, '0')} :
 ${currentSeconds.toString().padStart(2, '0')}`
 console.log(formatTime)
 }, 1000)
+console.log()
