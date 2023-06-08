@@ -24,7 +24,7 @@ const fp = flatpickr("#datetime-picker", {
       } else {
         buttonEl.disabled = false;
       }
-    },
+    }
   });
 
   
