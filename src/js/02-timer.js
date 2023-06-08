@@ -40,5 +40,5 @@ const formatTime = `${currentDey.toString().padStart(2, '0')} :
 ${currentHours.toString().padStart(2, '0')} : 
 ${currentMinutes.toString().padStart(2, '0')} : 
 ${currentSeconds.toString().padStart(2, '0')}`
-
+console.log(formatTime)
 }, 1000)
