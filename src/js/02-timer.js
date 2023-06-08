@@ -6,7 +6,7 @@ const dataDays = document.querySelector('span[data-days]');
 const dataHours = document.querySelector('span[data-days]');
 const dataMinutes = document.querySelector('span[data-minutes]');
 const dataSeconds = document.querySelector('span[data-seconds]');
-console.log(dataDays);
+
 
 buttonEl.disabled = true;
 
@@ -40,6 +40,5 @@ const formatTime = `${currentDey.toString().padStart(2, '0')} :
 ${currentHours.toString().padStart(2, '0')} : 
 ${currentMinutes.toString().padStart(2, '0')} : 
 ${currentSeconds.toString().padStart(2, '0')}`
-console.log(formatTime)
+
 }, 1000)
-console.log()
